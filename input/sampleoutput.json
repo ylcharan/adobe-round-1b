@@ -1,0 +1,75 @@
+{
+    "metadata": {
+        "input_documents": [
+            "South of France - Cities.pdf",
+            "South of France - Cuisine.pdf",
+            "South of France - History.pdf",
+            "South of France - Restaurants and Hotels.pdf",
+            "South of France - Things to Do.pdf",
+            "South of France - Tips and Tricks.pdf",
+            "South of France - Traditions and Culture.pdf"
+        ],
+        "persona": "Travel Planner",
+        "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+        "processing_timestamp": "2025-07-25T03:02:36.748485"
+    },
+    "extracted_sections": [
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "section_title": "Introduction",
+            "importance_rank": 1,
+            "page_number": 8
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "section_title": "Introduction",
+            "importance_rank": 2,
+            "page_number": 11
+        },
+        {
+            "document": "South of France - Cuisine.pdf",
+            "section_title": "Introduction",
+            "importance_rank": 3,
+            "page_number": 4
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "section_title": "Introduction",
+            "importance_rank": 4,
+            "page_number": 12
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "section_title": "Introduction",
+            "importance_rank": 5,
+            "page_number": 3
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "refined_text": "Hotels \nBudget-Friendly Hotels \n• \nIbis Budget Nice Californie Lenval (Nice): A budget-friendly hotel oﬀering comfortable \nrooms and easy access to the beach and city center. • \nHotel des Arts (Montpellier): A budget-friendly hotel located in the heart of \nMontpellier, oﬀering comfortable rooms and easy access to the city's attractions. • \nHotel Azur (Nice): A budget-friendly hotel oﬀering comfortable rooms and easy \naccess to the beach and city center.",
+            "page_number": 8
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "refined_text": "• \nHotel Martinez (Cannes): A luxurious hotel located on the Boulevard de la Croisette, \noﬀering elegant rooms, a private beach, and a Michelin-starred restaurant. • \nHôtel Barrière Le Majestic (Cannes): A luxurious hotel located on the Boulevard de la \nCroisette, oﬀering elegant rooms, a private beach, and a Michelin-starred restaurant. • \nHôtel du Cap-Eden-Roc (Antibes): A luxurious hotel located on the Boulevard de la \nCroisette, oﬀering elegant rooms, a private beach, and a Michelin-starred restaurant.",
+            "page_number": 11
+        },
+        {
+            "document": "South of France - Cuisine.pdf",
+            "refined_text": "Must-Visit Restaurants \nTo truly experience the culinary delights of the South of France, here are some restaurants \nyou should consider visiting: \n• \nLe Petit Nice Passedat (Marseille): A three-Michelin-starred restaurant oﬀering \nexquisite seafood dishes and stunning views of the Mediterranean. • \nLa Chèvre d'Or (Èze): Located in a medieval village, this two-Michelin-starred \nrestaurant serves refined Provençal cuisine with breathtaking views of the French \nRiviera. Chef Mauro Colagreco's cuisine is inspired by the surrounding landscape, with \nmany ingredients sourced from the restaurant's own gardens.",
+            "page_number": 4
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "refined_text": "• \nVilla La Coste (Le Puy-Sainte-Réparade): A luxurious hotel set in a vineyard, oﬀering \nelegant rooms, a spa, and a Michelin-starred restaurant. Luxurious Hotels \n• \nGrand-Hôtel du Cap-Ferrat, A Four Seasons Hotel (Saint-Jean-Cap-Ferrat): A luxurious \nhotel set on 7 hectares of Mediterranean gardens, oﬀering elegant rooms, a spa, and a \nprivate beach. • \nHôtel de Paris Monte-Carlo (Monaco): A luxurious hotel located in the heart of \nMonaco, oﬀering opulent rooms, a world-class spa, and several Michelin-starred \nrestaurants.",
+            "page_number": 12
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "refined_text": "It's a great place to explore the city's past \nand enjoy its vibrant culture. • \nFish Market at the Old Port: Visit the fish market at the Old Port to experience the \nlocal seafood culture. Local Experiences \n• \nBoat Trip to the Calanques: Take a boat trip to the Calanques, a series of stunning \nlimestone cliﬀs and coves along the coast.",
+            "page_number": 3
+        }
+    ]
+}

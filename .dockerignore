@@ -1,0 +1,34 @@
+# Docker ignore file for Challenge_1b
+
+# Ignore output directory (will be created fresh)
+output/*
+
+# Ignore OS files
+.DS_Store
+.git/
+.gitignore
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore Docker files
+Dockerfile.*
+docker-compose.*
+
+# Keep input and model directories but ignore specific files if needed
+# input/.gitkeep
+# model/.gitkeep

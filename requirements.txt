@@ -1,0 +1,5 @@
+# Minimal requirements for process_collections.py
+PyMuPDF==1.23.21
+pillow
+ctransformers==0.2.27
+pytesseract==0.3.13
