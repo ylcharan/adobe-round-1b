@@ -12,6 +12,17 @@ Advanced PDF analysis solution that processes multiple document collections and 
 - **Docker** (for containerized deployment)
 - **Git** (for cloning the repository)
 
+
+### Docker Deployment
+
+```bash
+# Build Docker image
+docker build -t collection-analyzer .
+
+# Run with Docker
+docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output collection-analyzer
+```
+
 ### Installation
 
 ```bash
@@ -35,15 +46,7 @@ python process_collections.py --input input/input.json --pdf_folder input/PDFs -
 python process_collections.py --input input/input.json --pdf_folder input/PDFs --output output/output.json --model_path model/model.gguf
 ```
 
-### Docker Deployment
 
-```bash
-# Build Docker image
-docker build -t collection-analyzer .
-
-# Run with Docker
-docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output collection-analyzer
-```
 
 ## 📁 Project Structure
 
@@ -61,18 +64,6 @@ Challenge_1b/
 │       └── ...               # Additional PDFs
 ├── output/                    # Analysis results
 │   └── output.json           # Generated analysis
-├── Collection 1/              # Travel Planning Collection
-│   ├── PDFs/                 # South of France guides
-│   ├── challenge1b_input.json # Input configuration
-│   └── challenge1b_output.json # Analysis results
-├── Collection 2/              # Adobe Acrobat Learning
-│   ├── PDFs/                 # Acrobat tutorials
-│   ├── challenge1b_input.json # Input configuration
-│   └── challenge1b_output.json # Analysis results
-├── Collection 3/              # Recipe Collection
-│   ├── PDFs/                 # Cooking guides
-│   ├── challenge1b_input.json # Input configuration
-│   └── challenge1b_output.json # Analysis results
 └── README.md                 # This file
 ```
 
